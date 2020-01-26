@@ -1,1 +1,1 @@
-web: gunicorn hckverse2:app
+web: uwsgi uwsgi.ini
